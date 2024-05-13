@@ -1,0 +1,46 @@
+
+.container{
+  text-align: center;
+  width: 100%;
+}
+
+.basic {
+  width: 100px;
+  height: 50px;
+  padding: 35px;
+  
+  border: 25px solid transparent;
+  
+  background:
+    linear-gradient(red, red) content-box,
+    linear-gradient(blue, blue) padding-box,
+    linear-gradient(green, green) border-box;
+}
+
+.mainbox{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+
+.basic1{
+  width:400px;
+  height:400px;
+  padding: 30px;
+  background:
+  linear-gradient(to top right,skyblue 40%,yellow 40%,pink) content-box,
+  linear-gradient(to top right,hotpink 30%,red 10%,orange 30%) padding-box;
+  
+}
+
+.base1{
+  background:
+  radial-gradient(at 20% 50%,red,orange 40%,hotpink 40%);
+
+}
+
+.base2{
+  background: repeating-linear-gradient(to bottom left,red 20%, orange 30%,green 40%)content-box,
+  repeating-linear-gradient(to top left,hotpink 20%, skyblue 30%,green 40%)padding-box;
+}
